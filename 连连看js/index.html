@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>连连看</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+<link href="file:///G|/html/reset.css" rel="stylesheet" type="text/css">
+<script src="G:/html/juery/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+<div id="main">
+<div id="header">
+<p class="header-p p-s">TIME</p><label id="time" class="header-p l-s">60</label>
+<p class="header-p p-s">LEVEL</p><label id="level" class="header-p l-s">1</label>
+<p class="header-p p-s">SCORE</p><label id="score" class="header-p l-s">0</label>
+<button class="p-s header-p " id="btn">Pause</button>
+</div><!--header------>
+<div id="game_pannel">
+<canvas id="myCanvas" width="560px" height="480px" style="border: 1px solid red;"></canvas>
+</div><!--game_pannel--12X14---->
+<button onClick="timedCount()">点击一下</button>
+</div><!--main----->
+<script src="lianliankan.js"></script>
+<script src="searchPath.js"></script>
+</body>
+</html>

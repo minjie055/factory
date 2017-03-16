@@ -1,0 +1,9 @@
+@charset "utf-8";
+#main{width:560px;height:530px;border:#000 1px solid;}
+#header{width:560px;height:50px;border:#000 1px solid;}
+#game_pannel{width:560px;height:480px;border:#000 1px solid;}
+.header-p{float:left;font-size:24px;margin-top:10px;}
+#header>p:first-child{margin-left:30px;}
+.p-s{font-size:24px;font-weight:bold;font-family:cabin-sketch;margin-right:5px;margin-left:15px;color:#ED5659;}
+
+
